@@ -9,7 +9,7 @@ export function useData<T = any>(file: string): { data: T[]; loading: boolean } 
   useEffect(() => {
     if (cache[file]) return
     setLoading(true)
-    fetch(`/data/${file}.json`)
+    fetch(`${import.meta.env.BASE_URL}data/${file}.json`)
       .then(r => r.json())
       .then(d => { cache[file] = d; setData(d); setLoading(false) })
       .catch(() => setLoading(false))
