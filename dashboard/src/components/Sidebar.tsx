@@ -5,12 +5,12 @@ interface Props {
   onNavigate: (page: string) => void
 }
 
-const navIds = ['accueil','production','comparatif','climat','commerce','securite','foncier','finance','technologie','social','durabilite','indices','analyses']
+const navIds = ['accueil','production','comparatif','climat','commerce','securite','foncier','finance','technologie','social','durabilite','indices','analyses','webgis']
 const navIcons: Record<string, string> = {
   accueil: 'bi-house-door', production: 'bi-bar-chart-line', comparatif: 'bi-globe-americas',
   climat: 'bi-cloud-sun', commerce: 'bi-shop', securite: 'bi-shield-check', foncier: 'bi-map',
   finance: 'bi-bank', technologie: 'bi-cpu', social: 'bi-people', durabilite: 'bi-tree',
-  indices: 'bi-graph-up-arrow', analyses: 'bi-activity',
+  indices: 'bi-graph-up-arrow', analyses: 'bi-activity', webgis: 'bi-globe2',
 }
 
 export default function Sidebar({ activePage, onNavigate }: Props) {

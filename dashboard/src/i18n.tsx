@@ -36,6 +36,7 @@ const translations: Record<string, { en: string; fr: string }> = {
   'nav.durabilite': { en: 'Sustainability', fr: 'Durabilité' },
   'nav.indices': { en: 'Indices & Scores', fr: 'Indices & Scores' },
   'nav.analyses': { en: 'Advanced Analytics', fr: 'Analyses Avancées' },
+  'nav.webgis': { en: 'Interactive Map', fr: 'Carte Interactive' },
   'sidebar.month': { en: 'April', fr: 'Avril' },
   'sidebar.sources': { en: 'Sources: FAO | IFPRI | WB | IFAD', fr: 'Sources: FAO | IFPRI | BM | FIDA' },
 
@@ -66,6 +67,13 @@ const translations: Record<string, { en: string; fr: string }> = {
   'page.indices.desc': { en: 'Competitiveness, resilience, CAADP/Malabo', fr: 'Compétitivité, résilience, CAADP/Malabo' },
   'page.analyses.title': { en: 'Advanced Analytics', fr: 'Analyses Avancées' },
   'page.analyses.desc': { en: 'Correlations, clustering, descriptive statistics', fr: 'Corrélations, clustering, statistiques descriptives' },
+  'page.webgis.title': { en: 'Interactive Map', fr: 'Carte Interactive' },
+  'page.webgis.desc': { en: 'Choropleth map of Africa — explore indicators by country', fr: 'Carte choroplèthe de l\'Afrique — explorez les indicateurs par pays' },
+
+  // WebGIS
+  'gis.loading': { en: 'Loading map…', fr: 'Chargement de la carte…' },
+  'gis.indicator': { en: 'Indicator', fr: 'Indicateur' },
+  'gis.year': { en: 'Year', fr: 'Année' },
 
   // Accueil
   'accueil.tagline': { en: 'Comprehensive observatory of African agriculture — Production, Trade, Climate, Finance, Food Security, Land, Technology, Social Dimensions & Sustainability', fr: 'Observatoire complet de l\'agriculture africaine — Production, Commerce, Climat, Finance, Sécurité Alimentaire, Foncier, Technologie, Dimensions Sociales & Durabilité' },
